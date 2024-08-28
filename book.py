@@ -14,6 +14,7 @@ def create_table():
             qty INTEGER NOT NULL
         )
     ''')
+    # Hello again Martins
 
     cursor.executemany(''' 
         INSERT OR REPLACE INTO book (id, title, author, qty) VALUES (?, ?, ?, ?)
